@@ -26,8 +26,6 @@ COPY requirements.txt ./
 RUN pip install -r requirements.txt
 
 # Copy local code to the container image.
-ENV CLIENT_ID=363232934631-pjbd198u1kic7hlmpooh690kirmqg7iq.apps.googleusercontent.com
-ENV CLIENT_SECRET=-pR-QnJtA7ViS9gV9Exbb9dK
 ENV APP_HOME /app
 WORKDIR $APP_HOME
 COPY . ./
