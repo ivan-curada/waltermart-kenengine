@@ -12,8 +12,8 @@ from email.mime.multipart import MIMEMultipart
 from email.encoders import encode_base64
 import base64
 
-client_id = os.environ['CLIENT_ID']
-client_secret =  os.environ['CLIENT_SECRET']
+client_id = "363232934631-pjbd198u1kic7hlmpooh690kirmqg7iq.apps.googleusercontent.com"
+client_secret =  "-pR-QnJtA7ViS9gV9Exbb9dK"
 
 def sendMessage(sender, message, token):
     credentials = google.oauth2.credentials.Credentials(token, client_id=client_id, client_secret=client_secret)
