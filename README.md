@@ -1,3 +1,3 @@
 # Waltermart/Kenengine-v1
 
-Source code for Flask server for waltermart
+Repository for Watermarking Project. This is under active development. Do not deploy in production.
