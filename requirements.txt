@@ -56,7 +56,7 @@ pytz==2019.3
 pyxnat==1.2.1.0.post3
 rdflib==4.2.2
 requests==2.23.0
-rsa==4.0
+rsa==4.1
 scipy==1.4.1
 six==1.14.0
 uritemplate==3.0.1
