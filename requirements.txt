@@ -41,7 +41,7 @@ numpy==1.18.2
 packaging==20.3
 Pillow==8.3.2
 pluggy==0.13.1
-protobuf==3.11.3
+protobuf==3.18.3
 prov==1.5.3
 py==1.10.0
 pyasn1==0.4.8
